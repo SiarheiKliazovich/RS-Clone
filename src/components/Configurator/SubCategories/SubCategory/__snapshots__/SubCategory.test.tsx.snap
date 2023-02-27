@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubCategory renders correctly 1`] = `
+<li
+  class="image-item"
+>
+  <div
+    class="img-wrapper"
+  >
+    <img
+      alt="img"
+      class="img-subcategories"
+      src="image.png"
+    />
+  </div>
+  <div
+    class="btn-wrapper"
+  >
+    <a
+      class="category-name"
+      href="/configurator/category/type"
+      style="background-color: rgb(255, 255, 255);"
+    >
+      name
+    </a>
+  </div>
+</li>
+`;

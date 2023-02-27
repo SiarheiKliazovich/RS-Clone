@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel renders correctly 1`] = `
+<div>
+  <div
+    class="section-testimonial"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="section-testimonial-title"
+      >
+        <span
+          class="title-design"
+        >
+          TESTIMONIALS
+        </span>
+        <h2
+          class="testimonial-title"
+        >
+          +100500 Companies And People Who Have Used TieConfigurator
+        </h2>
+      </div>
+      <div
+        class="carousel"
+      >
+        <div
+          class="slideshow"
+        >
+          <div
+            class="carousel-wrapper"
+          >
+            <div
+              class=" slideshowSlider"
+              style="transform: translate3d(0%, 0, 0);"
+            >
+              <div
+                class="slide testimonial-item"
+              >
+                <div
+                  class="testimonial-item__wrapper"
+                >
+                  <div
+                    class="user-wrapper"
+                  >
+                    <img
+                      alt=""
+                      class="user-img-carousel"
+                      src="https://i.ibb.co/28gV9DC/avarat-11-1.jpg"
+                    />
+                    <div
+                      class="user-info"
+                    >
+                      <p
+                        class="name-user"
+                      >
+                        John Malcovich
+                      </p>
+                      <p
+                        class="name-user-job"
+                      >
+                        Chimney Sweep On Call
+                      </p>
+                    </div>
+                  </div>
+                  <p
+                    class="testimonial-text"
+                  >
+                    Hi--The tie I just purchased is for a young friend's January birthday. The black tie I bought him last year with the musical notes was a first-rate home run, so I have every expectation that this year's blue tie with the la crosse pattern will be another smashing success!
+                  </p>
+                </div>
+              </div>
+              <div
+                class="slide testimonial-item"
+              >
+                <div
+                  class="testimonial-item__wrapper"
+                >
+                  <div
+                    class="user-wrapper"
+                  >
+                    <img
+                      alt=""
+                      class="user-img-carousel"
+                      src="https://i.ibb.co/pv7kxhK/avatar-10-1.jpg"
+                    />
+                    <div
+                      class="user-info"
+                    >
+                      <p
+                        class="name-user"
+                      >
+                        Lisa Jeffrey
+                      </p>
+                      <p
+                        class="name-user-job"
+                      >
+                        Manager
+                      </p>
+                    </div>
+                  </div>
+                  <p
+                    class="testimonial-text"
+                  >
+                    Thank you,TiesCreator.com,for being amazing!I placed my second order with this website for a tie for my BF to match my dress, and both have matched perfectly! This website has the best, most affordable, most diverse selection of ties with excellent customer service.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="slide testimonial-item"
+              >
+                <div
+                  class="testimonial-item__wrapper"
+                >
+                  <div
+                    class="user-wrapper"
+                  >
+                    <img
+                      alt=""
+                      class="user-img-carousel"
+                      src="https://i.ibb.co/XL2wpfL/avatar-9-1.jpg"
+                    />
+                    <div
+                      class="user-info"
+                    >
+                      <p
+                        class="name-user"
+                      >
+                        Billy Bones
+                      </p>
+                      <p
+                        class="name-user-job"
+                      >
+                        Donut Baker
+                      </p>
+                    </div>
+                  </div>
+                  <p
+                    class="testimonial-text"
+                  >
+                    I love your company and love your great ties. The person on the phone was so helpful and courteous. The tie arrived so quickly and was wonderful. In this day and age, it's so nice to see such dedication and hard work to create and sustain a great company. Thanks!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="slideshowDots"
+            >
+              <div
+                class="slideshowDot"
+                style="background-color: rgb(0, 0, 0);"
+              />
+              <div
+                class="slideshowDot"
+                style="background-color: rgb(149, 147, 147);"
+              />
+              <div
+                class="slideshowDot"
+                style="background-color: rgb(149, 147, 147);"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,95 @@
+@import "../../../../sass/mixins";
+@import "../../../../sass/variables";
+
+.circular-progress {
+  width: 30%;
+  padding: 25px;
+  background-color: $color-element-background-light;
+  border-radius: $border-radius-sm;
+  box-shadow: $box-shadow;
+
+  @include media-tablet {
+    width: 100%;
+  }
+}
+
+.circular-progress__container {
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.circular-progress__indicator {
+  width: 200px;
+  height: 200px;
+  transform: rotate(-90deg);
+}
+
+.circular-progress__track,
+.circular-progress__indication {
+  cx: 100px;
+  cy: 100px;
+  r: 80px;
+  fill: transparent;
+  stroke-width: 20px;
+}
+
+.circular-progress__center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circular-progress__today {
+  margin: 10px 0;
+  font-size: $font-size-xxxlg;
+  text-align: center;
+}
+
+.circular-progress__subtitle {
+  font-size: $font-size-llg;
+  text-align: center;
+}
+
+.circular-progress__additional {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-tablet {
+    justify-content: space-around;
+  }
+
+  @include media-small-mobile {
+    justify-content: space-between;
+  }
+}
+
+.circular-progress__month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circular-progress__small-title {
+  font-size: $font-size-sm;
+  text-align: center;
+  margin-bottom: 5px;
+
+  @include media-tablet {
+    font-size: $font-size-md;
+  }
+}
+
+.circular-progress__value {
+  @include media-tablet {
+    font-size: $font-size-lg;
+  }
+}

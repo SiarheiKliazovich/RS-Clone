@@ -1,0 +1,31 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.dashboard {
+  transition: $transition;
+
+  &--indent {
+    margin-left: 100px;
+
+    @include media-small-mobile {
+      margin-left: 70px;
+    }
+  }
+}
+
+.dashboard__header {
+  margin: 120px 0 40px 0;
+  font-size: $font-size-xlg;
+  text-transform: capitalize;
+}
+
+.dashboard__text {
+  font-size: $font-size-lg;
+}
+
+.dashboard__spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 75%);
+}

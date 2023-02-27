@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyTiesList renders correctly 1`] = `
+<div
+  class="market-block__products"
+>
+  <div
+    class="row__products"
+  >
+    <div
+      class="tie__product"
+    >
+      <div
+        class="tie__products_img"
+      >
+        <img
+          alt=""
+          class="products_img"
+          src="https://example.com/test1.jpg"
+        />
+      </div>
+      <div
+        class="tie__products_discription"
+      >
+        <div
+          class="tie__products_name"
+        >
+          myTies.name
+          : 
+          Test Tie 1
+        </div>
+        <div
+          class="tie__products_price"
+        >
+          myTies.price
+          : 
+          10
+          $
+        </div>
+        <div
+          class="tie__products_wrapper"
+        >
+          <button
+            class="btn__like"
+          >
+            <i
+              class="fa fa-remove"
+            />
+            myTies.delete
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tie__product"
+    >
+      <div
+        class="tie__products_img"
+      >
+        <img
+          alt=""
+          class="products_img"
+          src="https://example.com/test2.jpg"
+        />
+      </div>
+      <div
+        class="tie__products_discription"
+      >
+        <div
+          class="tie__products_name"
+        >
+          myTies.name
+          : 
+          Test Tie 2
+        </div>
+        <div
+          class="tie__products_price"
+        >
+          myTies.price
+          : 
+          20
+          $
+        </div>
+        <div
+          class="tie__products_wrapper"
+        >
+          <button
+            class="btn__like"
+          >
+            <i
+              class="fa fa-remove"
+            />
+            myTies.delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

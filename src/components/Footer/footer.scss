@@ -1,0 +1,141 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.footer-wrapper {
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.footer__columns_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+    @include media-small-mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+.section__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  background-image: url(../../assets/images/png/logo.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0px 1px 15px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.2); 
+  }
+}
+
+.section__logo_text {
+  font-size: $font-size-xlg;
+  font-family: $font-family-base;
+  color: $color-white1;
+}
+
+.footer-title {
+  font-size: $font-size-xlg;
+  font-family: $font-family-base;
+  color:$color-white1;
+  padding-bottom: 10px;
+}
+
+.footer__list_item {
+  font-size: $font-size-llg;
+  color: $color-grey2;
+  padding-bottom: 10px;
+}
+
+.footer__list_item-link {
+  color: $color-white1;
+  list-style: none;
+
+  &:hover {
+    opacity: 0.6; 
+  }
+}
+
+.item-link__social_face {
+  background: url(../../assets/images/png/face.webp);
+}
+
+.item-link__social_twit {
+  background: url(../../assets/images/png/twit.png);
+}
+
+.item-link__social_inst {
+  background: url(../../assets/images/png/inst1.png);
+}
+
+.section__contact_link {
+  list-style: none;
+  color: $color-grey2;
+
+  &:hover {
+    color: $color-white1;
+  }
+}
+
+.copyright-footer {
+  padding: 30px 1px;
+  border-top: 3px solid $color-grey5;
+}
+
+.copyright-wrapper {
+  display: flex;
+  padding: 0 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-small-mobile {
+    flex-direction: column;
+  }
+}
+
+.copyright-text {
+  font-size: $font-size-xlg;
+  font-family: $font-family-base;
+  color: $color-white1;
+}
+
+.copyright-footer__link {
+  background-image: url(../../assets/images/png/pngwin.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; 
+  overflow: hidden; 
+  transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.2); 
+    }
+}
+
+.logo-link {
+  background-image: url(../../assets/images/svg/rs_school_js.svg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 40px;
+  display: inline-block; 
+  overflow: hidden; 
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.2); 
+  }
+}

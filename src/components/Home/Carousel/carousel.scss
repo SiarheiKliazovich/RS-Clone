@@ -1,0 +1,150 @@
+@import "../../../sass/variables";
+@import "../../../sass/mixins";
+
+
+.section-testimonial {
+  background: $color-white1;
+  padding: 30px 0;
+
+  .body--night-mode & {
+    background-color: $color-black1;
+  }
+}
+
+.section-testimonial-wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-testimonial-title {
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title-design {
+  font-weight: $font-weight-normal;
+  color: $color-grey7;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-family: $font-family-base;
+}
+
+.testimonial-title {
+  color: $color-grey7;
+  font-family: $font-family-base;
+  font-size: $font-size-xxlg;
+}
+
+// ==============================================logic
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+/*============================= Buttons */
+
+.slideshowDots {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 15px 7px 0px;
+  background-color: $color-grey1;
+  cursor: pointer;
+  z-index: 9;
+}
+
+
+// ============================================
+.slide {
+  display: inline-block;
+  width: 94%;
+  vertical-align: middle;
+}
+
+.testimonial-item {
+  box-shadow: 4.871px 34.659px 30px 0 $color-black3;
+  background: $color-white2;
+  border-radius: 5px; 
+  white-space:normal;
+  margin: 0 35px 40px 35px;
+
+  .body--night-mode & {
+    background-color: $color-element-background-night;
+  }
+
+  @include media-small-tablet {
+    margin: 0 25px 40px 25px;
+  }
+
+  @include media-mobile {
+    margin: 0 0px 40px 35px;
+  }
+
+  @include media-small-mobile {
+    margin:0px 13px 40px 15px;
+  }
+}
+
+.testimonial-item__wrapper {
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.user-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.user-img-carousel {
+  width: 37px;
+  height: 37px;
+}
+
+.user-info {
+  padding-left: 20px;
+}
+
+.name-user {
+  font-family: $font-family-base;
+  font-size: $font-size-xlg;
+  color: $color-black1;
+
+  .body--night-mode & {
+    color: $color-white1;
+  }
+}
+
+.name-user-job {
+  font-family: $font-family-base;
+}
+
+.testimonial-text {
+  font-family: $font-family-base;
+  font-size: $font-size-llg;
+  padding: 20px 45px;
+}

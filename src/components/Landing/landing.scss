@@ -1,0 +1,11 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.outlet_wrapper {
+  padding-top: 88px;
+  min-height: calc(100vh - 410px);
+
+    @include media-small-mobile {
+      padding-top: 77px;
+    }
+}

@@ -1,0 +1,46 @@
+@import "../../../sass/variables";
+@import "../../../sass/mixins";
+
+.users__wrapper > {
+    box-sizing: border-box;
+}
+
+.users__wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-element-background-light;
+    padding: 15px;
+    border-radius: $border-radius-sm;
+    box-shadow: $box-shadow;
+    overflow-y: auto;
+}
+
+.users__header {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.users__header-button {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    color: $font-color-white;
+    border: none;
+    border-radius: $border-radius-sm;
+    background-color: $color-accent;
+    font-size: $font-size-lg;
+    cursor: pointer;
+
+    &_active {
+       background-color: $color-accent-hover;
+    }
+
+    &:first-child {
+        margin-right: 20px;
+    }
+
+    &:hover,
+    &:active {
+        background-color: $color-accent-hover;
+    }
+}

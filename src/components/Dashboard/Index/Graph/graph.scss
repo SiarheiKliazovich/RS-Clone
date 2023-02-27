@@ -1,0 +1,58 @@
+@import "../../../../sass/mixins";
+@import "../../../../sass/variables";
+
+.graph {
+  width: 70%;
+  background-color: $color-element-background-light;
+  border-radius: $border-radius-sm;
+  box-shadow: $box-shadow;
+
+  @include media-tablet {
+    width: 100%;
+  }
+}
+
+.graph__wrapper {
+  margin: 25px;
+  overflow-x: auto;
+}
+
+.graph__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @include media-mobile {
+    width: 700px;
+  }
+}
+
+.graph__container {
+  position: relative;
+  margin-top: 25px;
+
+  @include media-mobile {
+    width: 700px;
+  }
+}
+
+.graph__canvas {
+  height: 100%;
+  width: 100%;
+}
+
+.graph__button {
+  padding: 5px 10px;
+
+  &--left {
+    border-radius: $border-radius-sm 0 0 $border-radius-sm;
+  }
+
+  &--center {
+    border-radius: 0;
+  }
+
+  &--right {
+    border-radius: 0 $border-radius-sm $border-radius-sm 0;
+  }
+}

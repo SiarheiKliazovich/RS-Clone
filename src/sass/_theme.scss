@@ -1,0 +1,43 @@
+@import './variables';
+
+.body--night-mode {
+  background-color: $color-page-background-night;
+  color: $font-color-light;
+
+  .header,
+  .profile,
+  .sidebar,
+  .card,
+  .circular-progress,
+  .graph,
+  .calendar,
+  .list {
+    background-color: $color-element-background-night;
+  }
+
+  .table-line:nth-child(even) {
+    background-color: #2f3941;
+  }
+
+  .profile__header {
+    border-color: #3f4b54;
+  }
+
+  .calendar__title,
+  .day {
+    border: $border-calendar-night;
+  }
+
+  .day--today {
+    background-color: #545745;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $font-color-header-light;
+  }
+}

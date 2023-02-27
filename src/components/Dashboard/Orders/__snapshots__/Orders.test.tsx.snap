@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoriteTie renders correctly 1`] = `
+<div>
+  <div
+    class="orders__wrapper"
+    style="background-color: rgb(255, 255, 255);"
+  >
+    <div
+      class="orders-list__wrapper"
+    >
+      <div
+        class="orders-list__item"
+      >
+        <table>
+          <tbody>
+            <tr
+              class="table-header"
+            >
+              <th>
+                #
+              </th>
+              <th>
+                ordersTable.date
+              </th>
+              <th>
+                ordersTable.price
+              </th>
+              <th>
+                ordersTable.status
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch renders correctly 1`] = `
+<label
+  class="switch"
+>
+  <input
+    class="switch__checkbox"
+    type="checkbox"
+  />
+  <span
+    class="switch__slider"
+    style="background-color: rgb(255, 255, 255); border-color: #535f6b;"
+  />
+</label>
+`;

@@ -1,0 +1,72 @@
+@import "../../../sass/mixins";
+@import "../../../sass/variables";
+
+.calendar {
+  background-color: $color-element-background-light;
+  border-radius: $border-radius-sm;
+  box-shadow: $box-shadow;
+
+  @include media-tablet {
+    width: 100%;
+  }
+}
+
+.calendar__wrapper {
+  padding: 25px;
+  overflow-x: auto;
+}
+
+.calendar__head {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-tablet {
+    width: 1200px;
+  }
+}
+
+.calendar__container {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include media-tablet {
+    width: 1200px;
+  }
+}
+
+.calendar__header {
+  margin: 40px 0;
+  font-size: $font-size-xlg;
+  text-transform: capitalize;
+}
+
+.calendar__subheader {
+  display: inline;
+  flex-grow: 2;
+  font-size: $font-size-xlg;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.calendar__title {
+  width: calc(100% / 7);
+  padding: 10px 0;
+  display: block;
+  font-weight: $font-weight-bolder;
+  text-align: center;
+  text-transform: capitalize;
+  border: $border-calendar-light;
+  cursor: default;
+}
+
+.calendar__button {
+  &--left {
+    border-radius: $border-radius-sm 0 0 $border-radius-sm;
+  }
+
+  &--right {
+    border-radius: 0 $border-radius-sm $border-radius-sm 0;
+  }
+}

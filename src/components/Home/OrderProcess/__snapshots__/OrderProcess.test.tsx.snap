@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderProcess renders correctly 1`] = `
+<div
+  class="order-process__wrapper"
+>
+  <div
+    class="banner-top"
+  />
+  <div
+    class="order-process__banner"
+  >
+    <div
+      class="title-block"
+    >
+      <h2
+        class="order-title"
+      >
+        Order Process
+      </h2>
+      <p
+        class="order-title-text"
+      >
+        We have made our design capabilities available to you, the real designer so that you can customise your own tie, scarf and even packaging – enjoy!
+      </p>
+    </div>
+    <div
+      class="order-instruction-wrapper"
+    >
+      <div
+        class="order-instruction-block"
+      >
+        <div
+          class="image-order__wrapper"
+        >
+          <span
+            class="image-order first"
+          />
+          <div
+            class="text-order__wrapper"
+          >
+            <p
+              class="instruction-block__text"
+            >
+              CHOOSE CANVAS
+            </p>
+          </div>
+        </div>
+        <div
+          class="image-order__wrapper"
+        >
+          <span
+            class="image-order second"
+          />
+          <div
+            class="text-order__wrapper"
+          >
+            <p
+              class="instruction-block__text"
+            >
+              APPLY COLOURS
+            </p>
+          </div>
+        </div>
+        <div
+          class="image-order__wrapper"
+        >
+          <span
+            class="image-order third"
+          />
+          <div
+            class="text-order__wrapper"
+          >
+            <p
+              class="instruction-block__text"
+            >
+              FINISH YOUR CREATION
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="button-link-wrapper"
+    >
+      <button
+        class="button-link"
+        style="background-color: rgb(0, 0, 0);"
+      >
+        <a
+          class="btn-video-link"
+          href="/configurator"
+        >
+          GO TO CONFIGURATOR
+        </a>
+      </button>
+    </div>
+  </div>
+</div>
+`;

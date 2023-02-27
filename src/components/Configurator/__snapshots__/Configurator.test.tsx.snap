@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Configurator renders correctly 1`] = `
+<div>
+  <div
+    class="configurator-wrapper"
+  >
+    <div
+      class="tie-category-banner"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="tie-category"
+        >
+          <ul
+            class="category__list"
+          >
+            <li
+              class="category__list_item"
+            >
+              <div
+                class="category-blok"
+              >
+                <img
+                  alt="img-ties"
+                  class="category-img"
+                  src="https://i.ibb.co/t2bhZVY/plains.jpg"
+                />
+                <a
+                  class="category-name"
+                  href="/configurator/plains"
+                  style="background-color: rgb(0, 0, 0);"
+                >
+                  Plain
+                </a>
+              </div>
+            </li>
+            <li
+              class="category__list_item"
+            >
+              <div
+                class="category-blok"
+              >
+                <img
+                  alt="img-ties"
+                  class="category-img"
+                  src="https://i.ibb.co/NCtWNn0/patterns.jpg"
+                />
+                <a
+                  class="category-name"
+                  href="/configurator/patterns"
+                  style="background-color: rgb(0, 0, 0);"
+                >
+                  Patterns
+                </a>
+              </div>
+            </li>
+            <li
+              class="category__list_item"
+            >
+              <div
+                class="category-blok"
+              >
+                <img
+                  alt="img-ties"
+                  class="category-img"
+                  src="https://i.ibb.co/t4RqPjL/centered.jpg"
+                />
+                <a
+                  class="category-name"
+                  href="/configurator/centred"
+                  style="background-color: rgb(0, 0, 0);"
+                >
+                  Centred
+                </a>
+              </div>
+            </li>
+            <li
+              class="category__list_item"
+            >
+              <div
+                class="category-blok"
+              >
+                <img
+                  alt="img-ties"
+                  class="category-img"
+                  src="https://i.ibb.co/2vbQXvV/simple.jpg"
+                />
+                <a
+                  class="category-name"
+                  href="/configurator/simple"
+                  style="background-color: rgb(0, 0, 0);"
+                >
+                  Simple
+                </a>
+              </div>
+            </li>
+            <li
+              class="category__list_item"
+            >
+              <div
+                class="category-blok"
+              >
+                <img
+                  alt="img-ties"
+                  class="category-img"
+                  src="https://i.ibb.co/KG8Zfhm/tartan.jpg"
+                />
+                <a
+                  class="category-name"
+                  href="/configurator/tartan"
+                  style="background-color: rgb(0, 0, 0);"
+                >
+                  Tartan
+                </a>
+              </div>
+            </li>
+            <li
+              class="category__list_item"
+            >
+              <div
+                class="category-blok"
+              >
+                <img
+                  alt="img-ties"
+                  class="category-img"
+                  src="https://i.ibb.co/0Jtdxqs/polkadot.jpg"
+                />
+                <a
+                  class="category-name"
+                  href="/configurator/polkadot"
+                  style="background-color: rgb(0, 0, 0);"
+                >
+                  Polka Dot
+                </a>
+              </div>
+            </li>
+            <li
+              class="category__list_item"
+            >
+              <div
+                class="category-blok"
+              >
+                <img
+                  alt="img-ties"
+                  class="category-img"
+                  src="https://i.ibb.co/rGPgqBx/stripedtieps.jpg"
+                />
+                <a
+                  class="category-name"
+                  href="/configurator/stripedtieps"
+                  style="background-color: rgb(0, 0, 0);"
+                >
+                  Striped Ties
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

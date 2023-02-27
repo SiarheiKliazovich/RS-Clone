@@ -1,0 +1,170 @@
+@import "../../sass/mixins";
+@import "../../sass/variables";
+
+.profile {
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  background-color: $color-element-background-light;
+  transition: $transition;
+  transform: translateX(350px);
+  box-shadow: $box-shadow;
+  overflow: auto;
+  z-index: 25;
+
+  &--show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.profile__header {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: $border;
+}
+
+.profile__close {
+  padding: 5px 10px;
+  font-size: $font-size-xs;
+}
+
+.profile__wrapper {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 2;
+}
+
+.profile__user {
+  margin: 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile__image {
+  @include icon-background('../../assets/images/jpg/user.jpg', 80px);
+  border-radius: $border-radius-sm;
+  cursor: pointer;
+}
+
+.profile__email {
+  font-size: $font-size-llg;
+  font-weight: $font-weight-bolder;
+  line-height: $line-height-l;
+  text-align: center;
+}
+
+.profile__role {
+  font-size: $font-size-lg;
+  text-transform: uppercase;
+}
+
+.profile__title,
+.settings__title {
+  font-size: $font-size-llg;
+}
+
+.settings__list {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &--row {
+    flex-direction: unset;
+    justify-content: space-evenly;
+  }
+}
+
+.settings__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__name {
+  font-size: $font-size-lg;
+}
+
+.settings__colors {
+  margin: 20px 0;
+}
+
+.settings__subtitle {
+  font-size: $font-size-lg;
+  text-align: center;
+}
+
+.settings__color {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: $color-accent;
+  transition: $transition;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-accent-hover;
+  }
+
+  &--forest {
+    background-color: $color-accent-green;
+
+    &:hover {
+      background-color: $color-accent-green-hover;
+    }
+  }
+
+  &--purple {
+    background-color: $color-accent-purple;
+
+    &:hover {
+      background-color: $color-accent-purple-hover;
+    }
+  }
+
+  &--coffee {
+    background-color: $color-accent-coffee;
+
+    &:hover {
+      background-color: $color-accent-coffee-hover;
+    }
+  }
+}
+
+.settings__button {
+  width: 100%;
+}
+
+.links__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px 0;
+
+  .link {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    color: $color-white1;
+    padding: 3px 0;
+
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+}

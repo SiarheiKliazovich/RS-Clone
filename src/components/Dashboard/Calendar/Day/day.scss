@@ -1,0 +1,43 @@
+@import "../../../../sass/variables";
+
+.day {
+  width: calc(100% / 7);
+  height: 150px;
+  padding: 10px 0;
+  display: block;
+  border: $border-calendar-light;
+  overflow-x: overlay;
+  overflow-y: hidden;
+  cursor: pointer;
+
+  &--today {
+    background-color: #fffadf;
+  }
+}
+
+.day__header {
+  margin: 0 10px 10px 10px;
+  text-align: right;
+  font-weight: $font-weight-normal;
+  opacity: .3;
+
+  &--active {
+    opacity: 1;
+  }
+}
+
+.day__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $font-color-white;
+  cursor: pointer;
+  margin: 2px 1px;
+  padding: 2px 10px;
+  font-size: $font-size-sm;
+  border-radius: $border-radius-sm;
+
+  &>.marker {
+    padding: 0;
+  }
+}

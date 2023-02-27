@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AudioPlayer renders correctly 1`] = `
+<button
+  class="voice-btn-fixed"
+  id="my_audio"
+  type="button"
+>
+  <div
+    class="voice-btn"
+  >
+    <div
+      class="volume-up none"
+    />
+    <div
+      class="volume-mute"
+    />
+  </div>
+</button>
+`;

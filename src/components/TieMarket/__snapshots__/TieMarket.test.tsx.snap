@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TieMarket renders correctly 1`] = `
+<main
+  class="main-market"
+>
+  <div
+    class="tiemarket-wrapper"
+    style="background-color: rgb(246, 246, 246);"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="tiemarket__banner-wrapper"
+        style="background-color: rgb(246, 246, 246);"
+      >
+        <div
+          class="market-block"
+          style="background-color: rgb(255, 255, 255);"
+        >
+          <div
+            class="market-block__title_wrapper"
+          >
+            <h4
+              class="market-block__title"
+            >
+              Tie Market
+            </h4>
+          </div>
+          <div
+            class="market-block__products"
+          >
+            <div
+              class="row__products"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="popup-overlay"
+  >
+    <div
+      class="popup"
+    >
+      <div
+        class="sign__content"
+      >
+        <h2
+          class="sign__title"
+        >
+          sign.signIn
+        </h2>
+        <div
+          class="sign__text"
+        >
+          sign.text-1
+        </div>
+        <form
+          action="#"
+          class="form"
+        >
+          <input
+            class="field"
+            id="email"
+            name="email"
+            placeholder="Email"
+            type="email"
+            value=""
+          />
+          <input
+            class="field"
+            id="password"
+            name="password"
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+          <button
+            class="sign__button"
+            style="background-color: rgb(0, 0, 0);"
+            type="submit"
+          >
+            sign.signIn
+          </button>
+        </form>
+        <div
+          class="sign__text-link"
+        >
+          sign.create
+           
+          <a
+            class="text-link"
+            href="/sign-up"
+            style="color: rgb(0, 0, 0);"
+          >
+            sign.signUp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;

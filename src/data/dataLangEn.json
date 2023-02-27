@@ -1,0 +1,133 @@
+{
+    "ordersTable": {
+        "date": "Date",
+        "price": "Price",
+        "status": "Status",
+        "apply": "Apply",
+        "delete": "Delete"
+    },
+    "select": {
+        "change": "Change status",
+        "nonPaid": "Non-paid",
+        "paid": "Paid",
+        "declined": "Declined",
+        "inProgress": "In progress",
+        "finished": "Finished",
+        "deadline": "Deadline"
+    },
+    "buttonsUsersList": {
+        "users": "Users",
+        "sellers": "Sellers"
+    },
+    "usersTable": {
+        "email": "Email",
+        "id": "Id",
+        "promote": "Promote",
+        "date": "Date"
+    },
+    "menu": {
+        "dashboard": "Dashboard",
+        "calendar": "Calendar",
+        "orders": "Orders",
+        "users": "Users"
+    },
+    "profile": {
+        "profile": "Profile",
+        "signIn": "Sign In",
+        "signOut": "Sign out",
+        "myProfile": "My profile",
+        "myOrders": "My orders",
+        "myTies": "My ties",
+        "settings": "Settings",
+        "nightMode": "Night mode",
+        "sidebarFixed": "Sidebar fixed",
+        "sidebarAccentMode": "Sidebar accent mode",
+        "navbarNightMode": "Navbar night mode",
+        "changeAccentColor": "Change accent color",
+        "reset": "Reset to default",
+        "addTie": "Add tie",
+        "favourite": "My wishlist"
+    },
+    "sign": {
+        "signIn": "Sign In",
+        "text-1": "To Keep connected with us please login with your personal info.",
+        "create": "Create an Account",
+        "signUp": "Sign Up",
+        "text-2": "Enter your personal details and start journey with us.",
+        "have": "Already have an Account",
+        "buyer": "I am BUYER",
+        "seller": "I am SELLER"
+    },
+    "myProfile": {
+        "email": "Email",
+        "date": "Date of registration",
+        "role": "Role"
+    },
+    "myTies": {
+        "myTies": "My ties",
+        "mySales": "My sales",
+        "delete": "Delete",
+        "price": "Price",
+        "name": "Vendor code",
+        "isEmptyMessage": "You ties list is empty"
+    },
+    "myTiesOrders": {
+        "date": "Date of sale",
+        "sum": "Sum",
+        "isEmptyMessage": "You sales list is empty"
+    },
+    "myOrders": {
+        "data": "Order data",
+        "date": "Date",
+        "sum": "Sum",
+        "status": "Status",
+        "delete": "Delete order",
+        "isEmptyMessage": "Your order list is empty"
+    },
+    "index": {
+        "cards": {
+            "totalRevenue": "Total revenue",
+            "todaySales": "Today's sales",
+            "sellersCount": "Sellers count",
+            "usersCount": "Users count"
+        },
+        "widget": {
+            "header": "Monthly revenue",
+            "title": "Revenue",
+            "today": "Today",
+            "currentMonth": "Current month",
+            "prevMonth": "Previous month"
+        },
+        "graph": {
+            "header": "Sales Analytics",
+            "buttonWeek": "7 days",
+            "buttonMonth": "Month",
+            "buttonQuarter": "Quarter",
+            "labelRevenue": "Net Revenue",
+            "labelSales": "Number of Sales"
+        }
+    },
+    "calendar": {
+        "buttons": {
+            "previous": "Prev",
+            "next": "Next",
+            "current": "Today"
+        },
+        "list": {
+            "id": "Order ID",
+            "product": "Product",
+            "date": "Date",
+            "price": "Price",
+            "status": "Order status",
+            "deadline": "Deadline"
+        }
+    },
+    "dashboard": {
+        "headers": {
+            "calendar": "Calendar",
+            "index": "Welcome to dashboard",
+            "orders": "Orders list",
+            "users": "Users list"
+        }
+    }
+}

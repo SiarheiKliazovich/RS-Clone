@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyTiesOrdersList renders correctly 1`] = `
+<div
+  class="market-block__products"
+>
+  <div
+    class="row__products"
+  >
+    <div
+      class="tie__product"
+    >
+      <div
+        class="tie__products_img"
+      >
+        <img
+          alt=""
+          class="products_img"
+          src="https://image.jpg"
+        />
+      </div>
+      <div
+        class="tie__products_discription"
+      >
+        <div
+          class="tie__products_name"
+        >
+          myTiesOrders.date
+          : 
+          2022-02-01
+        </div>
+        <div
+          class="tie__products_price"
+        >
+          myTiesOrders.sum
+          : 
+          10
+          $
+        </div>
+      </div>
+    </div>
+    <div
+      class="tie__product"
+    >
+      <div
+        class="tie__products_img"
+      >
+        <img
+          alt=""
+          class="products_img"
+          src="https://image2.jpg"
+        />
+      </div>
+      <div
+        class="tie__products_discription"
+      >
+        <div
+          class="tie__products_name"
+        >
+          myTiesOrders.date
+          : 
+          2022-02-02
+        </div>
+        <div
+          class="tie__products_price"
+        >
+          myTiesOrders.sum
+          : 
+          20
+          $
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

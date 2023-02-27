@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTie  renders correctly 1`] = `
+<main
+  class="main-market"
+>
+  <div
+    class="tieaddform__wrapper"
+    style="background-color: rgb(246, 246, 246);"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="tieaddform__banner-wrapper"
+        style="background-color: rgb(246, 246, 246);"
+      >
+        <div
+          class="tieaddform-block"
+          style="background-color: rgb(255, 255, 255);"
+        >
+          <div
+            class="form-addtie__title"
+          >
+            Create a tie
+          </div>
+          <div
+            class="form-addtie__wrapper"
+          >
+            <div
+              class="form-addtie__content"
+            >
+              <form
+                action="#"
+                class="tieadd-form"
+              >
+                <label
+                  class="tieadd-form__label"
+                  for="name"
+                >
+                  Add tie title
+                </label>
+                <input
+                  class="field"
+                  id="name"
+                  name="name"
+                  placeholder="Title"
+                  type="name"
+                  value=""
+                />
+                <label
+                  class="tieadd-form__label"
+                  for="price"
+                >
+                  Add tie price:
+                </label>
+                <input
+                  class="field"
+                  id="price"
+                  name="price"
+                  placeholder="Price"
+                  type="number"
+                  value="0"
+                />
+                <label
+                  class="tieadd-form__label"
+                  for="image"
+                >
+                  Upload tie picture
+                </label>
+                <input
+                  class="field-file"
+                  id="image"
+                  name="image"
+                  placeholder="image"
+                  type="file"
+                />
+                <button
+                  class="add-tie-btn"
+                  style="background-color: rgb(0, 0, 0);"
+                  type="submit"
+                >
+                  <i
+                    class="fa fa-align-justify"
+                  />
+                  Create tie
+                </button>
+              </form>
+            </div>
+            <div
+              class="form-img-blok"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;

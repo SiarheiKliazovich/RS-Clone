@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users renders correctly 1`] = `
+<div
+  class="users__wrapper"
+  style="background-color: rgb(255, 255, 255);"
+>
+  <div
+    class="users__header"
+  >
+    <button
+      class="users__header-button users__header-button_active"
+      data-id="1"
+      style="background-color: rgb(255, 255, 255);"
+    >
+      buttonsUsersList.users
+    </button>
+    <button
+      class="users__header-button "
+      data-id="2"
+      style="background-color: rgb(0, 0, 0);"
+    >
+      buttonsUsersList.sellers
+    </button>
+  </div>
+  <div
+    class="users-list__wrapper"
+  >
+    <div
+      class="users-list__item"
+    >
+      <table>
+        <tbody>
+          <tr
+            class="table-header"
+          >
+            <th>
+              #
+            </th>
+            <th>
+              usersTable.email
+            </th>
+            <th>
+              usersTable.id
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

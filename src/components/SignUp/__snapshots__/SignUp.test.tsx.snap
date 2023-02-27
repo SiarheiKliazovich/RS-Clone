@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp renders correctly 1`] = `
+<div
+  class="sign__wrapper"
+>
+  <div
+    class="sign__image"
+  >
+    <div
+      class="image-wrapper"
+    />
+  </div>
+  <div
+    class="sign__content-wrapper"
+  >
+    <div
+      class="sign__content"
+    >
+      <h2
+        class="sign__title"
+      >
+        sign.signUp
+      </h2>
+      <div
+        class="sign__text"
+      >
+        sign.text-2
+      </div>
+      <form
+        action="#"
+        class="form"
+      >
+        <input
+          class="field"
+          id="email"
+          name="email"
+          placeholder="Email"
+          type="email"
+          value=""
+        />
+        <input
+          class="field"
+          id="password"
+          name="password"
+          placeholder="Password"
+          type="password"
+          value=""
+        />
+        <div
+          class="sign__radio"
+        >
+          <label>
+            <input
+              checked=""
+              class="radio-field"
+              name="role"
+              type="radio"
+              value="USER"
+            />
+            sign.buyer
+          </label>
+          <label>
+            <input
+              class="radio-field"
+              name="role"
+              type="radio"
+              value="SELLER"
+            />
+            sign.seller
+          </label>
+        </div>
+        <button
+          class="sign__button"
+          style="background-color: rgb(0, 0, 0);"
+          type="submit"
+        >
+          sign.signUp
+        </button>
+      </form>
+      <div
+        class="sign__text-link"
+      >
+        sign.have
+         
+        <a
+          class="text-link"
+          href="/sign-in"
+          style="color: rgb(0, 0, 0);"
+        >
+          sign.signIn
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

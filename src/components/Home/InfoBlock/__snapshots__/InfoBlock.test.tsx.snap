@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoBlock renders correctly 1`] = `
+<section
+  class="section-space"
+>
+  <div
+    class="section-space__banner"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row-points-wrapper"
+      >
+        <div
+          class="points-wrapper"
+        >
+          <div
+            class="custom-tab"
+          >
+            <ul
+              class="custom-tab__nav_list"
+            >
+              <li
+                class="custom-tab__item"
+              >
+                <h5
+                  class="tab-title tab-title-select"
+                  style="background-color: rgb(255, 255, 255);"
+                >
+                  CUSTOMISED PRODUCTS
+                </h5>
+              </li>
+              <li
+                class="custom-tab__item"
+              >
+                <h5
+                  class="tab-title"
+                >
+                  CAN I ORDER A READY-MADE PRODUCT OFF THE SHELF?
+                </h5>
+              </li>
+              <li
+                class="custom-tab__item"
+              >
+                <h5
+                  class="tab-title"
+                >
+                  HOW ARE YOU ABLE TO OFFER QUANTITIES FROM ONE AT SUCH AFFORDABLE PRICES?
+                </h5>
+              </li>
+              <li
+                class="custom-tab__item"
+              >
+                <h5
+                  class="tab-title"
+                >
+                  HOW LONG DO I HAVE TO WAIT FOR MY CUSTOM PRODUCTS?
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="points-info-block"
+        >
+          <div
+            class="tab-pane-content"
+          >
+            <p
+              class="tab-pane__text"
+            >
+              A custom product simply means that you design your tie, novelty tie or scarf just as you want, no compromises.
+            </p>
+            <p
+              class="tab-pane__text"
+            >
+              Choose a canvas, apply colors, add logos and then select your size. The limitless options allow you to create designs as individual as your company brand, values, event or even your personality. We specialize in woven and printed ties, novelty ties, and ladies neck and head-scarves. Even apply your unique message onto your tie or scarf sleeve.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<header
+  class="header"
+  style="background-color: rgb(0, 0, 0);"
+>
+  <div
+    class="container container--full-width"
+  >
+    <div
+      class="header__wrapper"
+    >
+      <a
+        class="header__link"
+        href="/"
+      >
+        <span
+          class="header__logo"
+        />
+      </a>
+      <div
+        class="nav__hamburger_wrapper"
+      >
+        <span
+          class="nav__hamburger"
+        />
+      </div>
+      <div
+        class="nav-sidebar"
+        style="background-color: rgb(0, 0, 0);"
+      >
+        <div
+          class="nav-sidebar-wrapper"
+        >
+          <ul
+            class="list-nav-sidebar"
+          >
+            <li
+              class="nav-sidebar-item"
+            >
+              <span
+                class="active-link"
+              >
+                Home
+              </span>
+            </li>
+            <li
+              class="nav-sidebar-item"
+            >
+              <a
+                class="nav-sidebar-link"
+                href="/configurator"
+              >
+                Configurator
+              </a>
+            </li>
+            <li
+              class="nav-sidebar-item"
+            >
+              <a
+                class="nav-sidebar-link"
+                href="/tie-market"
+              >
+                Tie Market
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul
+        class="header__list"
+      >
+        <li
+          class="header__item"
+        >
+          <div
+            class="language"
+          >
+            <button
+              class="button__lang"
+              title="button__lang"
+            >
+              <img
+                alt="Current language"
+                class="language__icon"
+                src="flag-us.jpg"
+              />
+            </button>
+            <span
+              class="language__title"
+            >
+              en
+            </span>
+          </div>
+        </li>
+        <li
+          class="header__item"
+          title="header__profile"
+        >
+          <span
+            class="header__profile"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+`;

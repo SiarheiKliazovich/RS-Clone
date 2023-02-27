@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconFactory renders correctly 1`] = `
+<div>
+  Icon 1
+</div>
+`;

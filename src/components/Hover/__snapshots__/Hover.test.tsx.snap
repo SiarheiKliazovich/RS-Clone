@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hover renders correctly 1`] = `
+<div
+  style="background-color: rgb(0, 0, 0);"
+>
+  Content
+</div>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersList renders correctly 1`] = `
+<div>
+  <div
+    class="users-list__wrapper"
+  >
+    <div
+      class="users-list__item"
+    >
+      <table>
+        <tbody>
+          <tr
+            class="table-header"
+          >
+            <th>
+              #
+            </th>
+            <th>
+              usersTable.email
+            </th>
+            <th>
+              usersTable.id
+            </th>
+          </tr>
+          <tr>
+            <th>
+              1
+            </th>
+            <th>
+              test1@test.com
+            </th>
+            <th>
+              1
+            </th>
+          </tr>
+          <tr>
+            <th>
+              2
+            </th>
+            <th>
+              test2@test.com
+            </th>
+            <th>
+              2
+            </th>
+          </tr>
+          <tr>
+            <th>
+              3
+            </th>
+            <th>
+              test3@test.com
+            </th>
+            <th>
+              3
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

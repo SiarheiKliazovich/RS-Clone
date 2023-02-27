@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyOrders renders correctly 1`] = `
+<div
+  class="tiemarket-wrapper"
+  style="background-color: rgb(255, 255, 255);"
+>
+  <div
+    class="tiemarket__banner-wrapper"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="market-block"
+      >
+        <div
+          class="market-block__title_wrapper"
+        >
+          <h4
+            class="market-block__title"
+          >
+            My Orders
+          </h4>
+        </div>
+        <div
+          class="market-block__products"
+        >
+          <div
+            class="row__products"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

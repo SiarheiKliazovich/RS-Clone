@@ -1,0 +1,60 @@
+@import "../../../sass/variables";
+@import "../../../sass/mixins";
+
+
+.subcategories-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+  background: $color-white1;
+}
+
+.title-subcategories {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: $color-black1;
+  padding-bottom: 15px;
+}
+
+.images-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 10px;
+
+  @include media-small-mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  align-items: center;
+  background: $color-white1;
+  border-radius: 5px;
+
+  .btn-wrapper {
+    margin-bottom: 10px;
+  }
+}
+
+.tie-tipe {
+  background: $color-grey3;
+  padding: 3px 30px;
+  border-radius: 5px;
+}
+
+.img-subcategories {
+  border-radius: 20px;
+}

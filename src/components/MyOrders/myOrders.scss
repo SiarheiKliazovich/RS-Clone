@@ -1,0 +1,64 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.my-orders__wrapper > {
+    box-sizing: border-box;
+}
+
+.my-orders__wrapper {
+    width: 1000px;
+    margin: 120px auto 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-element-background-light;
+    padding: 40px 0 10px 5px;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+
+    @include media-tablet {
+        width: 900px;
+    }
+
+    @include media-small-tablet {
+        width: 700px;
+    }
+
+    @include media-mobile {
+        padding-top: 40px;
+        width: 500px;
+    }
+
+    @include media-small-mobile {
+        width: 340px;
+    }
+}
+
+.my-orders__header {
+    margin-top: -70px;
+}
+
+.my-orders-list__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto 0;
+    gap: 20px;
+}
+
+.my-orders-list__item {
+ 
+    .item__date,
+    .item__price,
+    .item__status {
+        margin-bottom: 10px;
+    }
+
+    .item__date {
+        padding-top: 10px;
+    }
+}
+
+.my-ties {
+    height: 190px;
+}

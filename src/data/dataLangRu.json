@@ -1,0 +1,133 @@
+{
+    "ordersTable": {
+        "date": "Дата",
+        "price": "Цена",
+        "status": "Статус",
+        "apply": "Применить",
+        "delete": "Удалить"
+    },
+    "select": {
+        "change": "Изменить статус",
+        "nonPaid": "Не оплачено",
+        "paid": "Оплачено",
+        "declined": "Отменено",
+        "inProgress": "Выполняется",
+        "finished": "Завершено",
+        "deadline": "Крайний срок"
+    },
+    "buttonsUsersList": {
+        "users": "Пользователи",
+        "sellers": "Продавцы"
+    },
+    "usersTable":  {
+        "email": "Почта",
+        "id": "Идент.",
+        "promote": "Повысить",
+        "date": "Дата"
+    },
+    "menu": {
+        "dashboard": "Доска",
+        "calendar": "Календарь",
+        "orders": "Заказы",
+        "users": "Пользователи"
+    },
+    "profile": {
+        "profile": "Профиль",
+        "signIn": "Войти",
+        "signOut": "Выйти",
+        "myProfile": "Мой профиль",
+        "myOrders": "Мои заказы",
+        "myTies": "Мои галстуки",
+        "settings": "Настройки",
+        "nightMode": "Ночной режим",
+        "sidebarFixed": "Фиксированная панель",
+        "sidebarAccentMode": "Акцент на панели",
+        "navbarNightMode": "Ночной режим меню",
+        "changeAccentColor": "Сменить цвет акцента",
+        "reset": "Сбросить",
+        "addTie": "Добавить галстук",
+        "favourite": "Мои желания"
+    },
+    "sign": {
+        "signIn": "Войти",
+        "text-1": "Чтобы оставаться на связи с нами, войдите в систему, указав свои личные данные.",
+        "create": "Создать аккаунт",
+        "signUp": "Зарегистрироваться",
+        "text-2": "Введите свои личные данные и начните путешествие с нами.",
+        "have": "Уже есть аккаунт",
+        "buyer": "Я покупатель",
+        "seller": "Я продавец"
+    },
+    "myProfile": {
+        "email": "Почта",
+        "date": "Дата регистрации",
+        "role": "Роль"
+    },
+    "myTies": {
+        "myTies": "Мои галстуки",
+        "mySales": "Мои продажи",
+        "delete": "Удалить",
+        "price": "Цена",
+        "name": "Артикул",
+        "isEmptyMessage": "Ваш список галстуков пуст"
+    },
+    "myTiesOrders": {
+        "date": "Дата продажи",
+        "sum": "Сумма",
+        "isEmptyMessage": "Ваш список продаж пуст"
+    },
+    "myOrders": {
+        "data": "Данные о заказе",
+        "date": "Дата",
+        "sum": "Сумма",
+        "status": "Статус",
+        "delete": "Удалить заказ",
+        "isEmptyMessage": "Ваш список заказов пуст"
+    },
+    "index": {
+        "cards": {
+            "totalRevenue": "Общий доход",
+            "todaySales": "Продано сегодня",
+            "sellersCount": "Продавцы",
+            "usersCount": "Пользователи"
+        },
+        "widget": {
+            "header": "Доход за месяц",
+            "title": "Доход",
+            "today": "Сегодня",
+            "currentMonth": "Текущий месяц",
+            "prevMonth": "Прошлый месяц"
+        },
+        "graph": {
+            "header": "Аналитика",
+            "buttonWeek": "7 дней",
+            "buttonMonth": "Месяц",
+            "buttonQuarter": "Квартал",
+            "labelRevenue": "Чистая выручка",
+            "labelSales": "Количество продаж"
+        }
+    },
+    "calendar": {
+        "buttons": {
+            "previous": "Назад",
+            "next": "Вперед",
+            "current": "Сегодня"
+        },
+        "list": {
+            "id": "Номер",
+            "product": "Продукт",
+            "date": "Дата",
+            "price": "Стоимость",
+            "status": "Статус",
+            "deadline": "Конец срока"
+        }
+    },
+    "dashboard": {
+        "headers": {
+            "calendar": "Календарь",
+            "index": "Добро пожаловать",
+            "orders": "Список заказов",
+            "users": "Список пользователей"
+        }
+    }
+}

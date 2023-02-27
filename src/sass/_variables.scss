@@ -1,0 +1,100 @@
+// ==================== General ====================
+$transition: .4s ease-in-out;
+$border: 1px solid #f1f1f1;
+$border-radius-sm: 5px;
+$box-shadow: 0 16px 40px 0 rgb(0 0 0 / 4%);
+
+// ================= Accent Colors =================
+$color-accent: #4788ff;
+$color-accent-hover: #0058fa;
+
+$color-accent-green: #659157;
+$color-accent-green-hover: #4c9138;
+
+$color-accent-purple: #9e7fbd;
+$color-accent-purple-hover: #8d59c2;
+
+$color-accent-coffee: #a77e58;
+$color-accent-coffee-hover: #b77b39;
+
+$color-white1: #ffffff;
+$color-white2: #f9f8f8;
+$color-white3:#eff1fee6;
+$color-white4: #dfe3e6;
+
+$color-grey1: #959393;
+$color-grey2: #cfc1c1;
+$color-grey3: #767373;
+$color-grey4: #e1e0e0;
+$color-grey5: #e1e4e4;
+$color-grey6: #777777;
+$color-grey7: #6a6a6a;
+$color-grey8:#eff1fe8c;
+$color-grey9:#898989;
+$color-grey10:#646464;
+$color-grey-tie:#f6f6f6;
+
+$color-red1: #e31010;
+$color-red2:#d119194d;
+$color-red3: #ff4b4b;
+
+$color-black1: #000;
+$color-black2: #00000012;
+$color-black3: #00000008;
+$color-black4: #00000091;
+// ======== Colors for card, graphics etc. =========
+$color-special-1: #ff4b4b; // deadline
+$color-special-2: #37e6b0; // finished
+$color-special-3: #4788ff; // in-progress
+$color-special-4: #fe721c;
+$color-special-5: #876cfe;
+$color-special-6: #ffcaca;
+$color-special-7: #e2fcf4;
+$color-special-8: #1c6c53;
+$color-special-9: #959393; // declined
+
+// ===================== Font =====================
+$font-family-base: Nunito, Roboto, sans-serif;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-bolder: 700;
+
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-llg: 20px;
+$font-size-lgg: 22px;
+$font-size-xlg: 24px;
+$font-size-xxlg: 28px;
+$font-size-xxxlg: 36px;
+$font-size-xxxxlg: 48px;
+$font-size-xxxxxlg: 52px;
+$font-size-megaxlg: 90px;
+
+$line-height-xs: 0.8em;
+$line-height-sm: 1.2em;
+$line-height-m: 1.25em;
+$line-height-l: 1.5em;
+
+// ================== Light Mode ==================
+$color-page-background-light: #fafbfe;
+$color-element-background-light: #ffffff;
+
+$font-color-header-dark: #303030;
+$font-color-dark: #535f6b; // regular
+
+// ================== Night Mode ==================
+$color-page-background-night: #1e272e;
+$color-element-background-night: #2b343b;
+
+$font-color-header-light: #ffffff;
+$font-color-light: #d5d6d7; // regular
+$font-color-white: #ffffff; // for links, buttons etc.
+
+// ========= border color
+$font-color-light-grey: #999999;
+$border-calendar-light: 1px solid #dee2e6;
+$border-calendar-night: 1px solid #424e5a;

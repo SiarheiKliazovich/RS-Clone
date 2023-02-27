@@ -1,0 +1,49 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.my-profile-wrapper {
+    background-color: $color-page-background-light;
+}
+
+.my-profile__content {
+    padding-top: 20px;
+    margin: 40px auto;
+    min-height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+
+    @include media-small-tablet {
+        width: 400px;
+    }
+
+    @include media-mobile {
+        width: 350px;
+    }
+
+    @include media-small-mobile {
+        margin-top: 100px;
+        width: 300px;
+    }
+}
+
+.my-profile__image {
+    @include icon-background('../../assets/images/jpg/user.jpg', 150px);
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.my-profile__text {
+    font-size: $font-size-xlg;
+    margin-bottom: 5px;
+    font-weight: $font-weight-bolder;
+}
+
+.my-profile__email {
+    font-size: $font-size-lgg;
+    margin-bottom: 15px;
+}

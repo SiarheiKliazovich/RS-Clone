@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyTies component renders correctly 1`] = `
+<div
+  class="tiemarket-wrapper"
+>
+  <div
+    class="my-ties__wrapper"
+    style="background-color: rgb(246, 246, 246);"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="market-block"
+        style="background-color: rgb(255, 255, 255);"
+      >
+        <div
+          class="my-ties__header"
+        >
+          <button
+            class="users__header-button users__header-button_active"
+            data-id="1"
+            style="background-color: rgb(255, 255, 255);"
+          >
+            myTies.myTies
+          </button>
+          <button
+            class="users__header-button"
+            data-id="2"
+            style="background-color: rgb(0, 0, 0);"
+          >
+            myTies.mySales
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

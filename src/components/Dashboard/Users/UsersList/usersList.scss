@@ -1,0 +1,69 @@
+@import "../../../../sass/variables";
+@import "../../../../sass/mixins";
+
+.users-list__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 800px;
+    width: 100%;
+}
+
+.users-list__item {
+    width: 100%;
+
+    table {
+        width: 100%;
+
+        .table-header {
+            font-size: $font-size-lg;
+            font-weight: $font-weight-bolder;
+        }
+
+        th {
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        tr {
+            vertical-align: middle;
+        }
+    }
+}
+
+.image-column {
+    width: 50px;
+
+    @include media-small-mobile {
+        width: 30px;
+    }
+}
+
+.table-header {
+    height: 50px;
+    font-size: 22px;
+}
+
+.icon {
+    background-image: url("../../../../assets/images/png/icon-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+
+    @include media-small-mobile {
+        width: 20px;
+        background-position: center;
+    }
+}
+
+.button__promo {
+    cursor: pointer;
+    border-radius: $border-radius-sm;
+    border: none;
+    padding: 5px 15px;
+    color: $color-white1;
+    margin-right: 5px;
+}

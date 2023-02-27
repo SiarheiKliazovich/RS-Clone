@@ -1,0 +1,56 @@
+@import "../../../sass/variables";
+@import "../../../sass/mixins";
+
+.wrapper-breadcrumb {
+  padding: 20px 0;
+}
+
+.breadcrumb-span {
+  color: $color-black1;
+}
+
+.breadcrumb-not-active .breadcrumb-active {
+  display: inline;
+}
+
+.breadcrumb-not-active {
+  color: $color-grey1;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+  border-right: 2px solid $color-black1;
+  font-weight: $font-weight-bolder;
+
+  .body--night-mode & {
+    color: $color-white1;
+    border-right: 2px solid $color-white1;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  &:last-child {
+    border-right: none
+  }
+}
+  
+.breadcrumb-active {
+  padding-left: 10px;
+  padding-right: 5px;
+  text-decoration: none;
+  border-right: 2px solid $color-black1;
+  font-weight: $font-weight-light;
+  color: $color-grey1;
+  
+  .body--night-mode & {
+    color: $color-white1;
+    border-right: 2px solid $color-white1;
+  }
+
+  &:last-child {
+    border-right: none
+  }
+}
+

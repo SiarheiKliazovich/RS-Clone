@@ -1,0 +1,110 @@
+@import "../../../sass/variables";
+@import "../../../sass/mixins";
+
+.voice-btn-fixed {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  margin-bottom: 60px;
+  border: none;
+  color: $color-white1;
+  background: transparent;
+  z-index: 999;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  overflow: visible;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    background: $color-red2;
+    border-radius: 50%;
+    animation: mb 1.5s ease-out infinite;
+    width: 70px;
+    height: 70px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    background: $color-red2;
+    border-radius: 50%;
+    animation: mb 1.5s ease-out infinite;
+    width: 50px;
+    height: 50px;
+
+    @include media-small-mobile {
+      bottom: 0px;
+      top: 540px;
+    }
+  }
+}
+
+.voice-btn-fixed .voice-btn {
+  width: 45px;
+  height: 45px;
+  line-height: 50px;
+  background: $color-special-1;
+  -ms-box-shadow: 0 2px 4px $color-black2;
+  -o-box-shadow: 0 2px 4px $color-black2;
+  box-shadow: 0 2px 4px $color-black2;
+  border-radius: 50%;
+  z-index: 9;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: $color-white1;
+  }
+}
+
+.volume-up {
+  background: url(../../../assets/images/png/on.png);
+  transition: all .3s ease-in-out;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+}
+
+.volume-mute {
+  width: 18px;
+  height: 18px;
+  transition: all .3s ease-in-out;
+  background:  url(../../../assets/images/png/off.png);
+  background-repeat: no-repeat;
+}
+
+.none {
+  display: none;
+}
+
+@keyframes mb {
+  0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      -ms-opacity: 1;
+      -o-opacity: 1;
+      opacity: 1;
+  }
+  to {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      -webkit-opacity: 0;
+      -moz-opacity: 0;
+      -ms-opacity: 0;
+      -o-opacity: 0;
+      opacity: 0;
+  }
+}

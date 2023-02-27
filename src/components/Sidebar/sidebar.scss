@@ -1,0 +1,77 @@
+@import "../../sass/mixins";
+@import "../../sass/variables";
+
+.sidebar {
+  height: 100vh;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  background-color: $color-element-background-light;
+  transition: $transition;
+  transform: translateX(-210px);
+  box-shadow: $box-shadow;
+  overflow: hidden;
+  z-index: 5;
+
+  &--fixed {
+    opacity: 1;
+    transform: translateX(0);
+
+    .sidebar__name {
+      display: none;
+    }
+  }
+
+  &--show {
+    width: 230px;
+    opacity: 1;
+    transform: translateX(0);
+
+    .sidebar__name {
+      display: inline;
+    }
+  }
+
+  @include media-small-mobile {
+    padding-top: 70px;
+  }
+}
+
+.sidebar__wrapper {
+  margin: 35px;
+
+  @include media-small-mobile {
+    margin: 35px 20px;
+  }
+}
+
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sidebar__item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.sidebar__icon {
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  display: inline-block;
+  transition: $transition;
+}
+
+.sidebar__name {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+  transition: $transition;
+}

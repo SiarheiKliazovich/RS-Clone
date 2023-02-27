@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  class="header"
+  style="background-color: rgb(255, 255, 255);"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="header__wrapper"
+    >
+      <span
+        class="header__hamburger"
+        title="header__hamburger"
+      />
+      <a
+        class="header__link"
+        href="/"
+      >
+        <span
+          class="header__logo"
+        />
+      </a>
+      <ul
+        class="header__list"
+      >
+        <li
+          class="header__item"
+        >
+          <div
+            class="language"
+          >
+            <button
+              class="button__lang"
+              title="button__lang"
+            >
+              <img
+                alt="Current language"
+                class="language__icon"
+                src="flag-us.jpg"
+              />
+            </button>
+            <span
+              class="language__title"
+            >
+              en
+            </span>
+          </div>
+        </li>
+        <li
+          class="header__item"
+          title="header__profile"
+        >
+          <span
+            class="header__profile"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+`;

@@ -1,0 +1,38 @@
+@import "../../../sass/mixins";
+@import "../../../sass/variables";
+
+.index {
+  font-size: $font-size-lg;
+}
+
+.index__header {
+  margin: 40px 0 10px 0;
+  font-size: $font-size-xlg;
+  text-transform: capitalize;
+}
+
+.index__breadcrumbs {
+  margin-bottom: 40px;
+}
+
+.index__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+  @include media-tablet {
+    flex-wrap: wrap;
+  }
+}
+
+.index__additional {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  @include media-tablet {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,55 @@
+@import "../../../sass/mixins";
+@import "../../../sass/variables";
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.switch__checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+
+  &:checked + .switch__slider {
+    background-color: $color-accent;
+    border-color: $color-accent;
+  }
+
+  &:checked + .switch__slider:before {
+    transform: translateX(30px);
+    background-color: $color-element-background-light;
+  }
+
+  &:focus + .switch__slider {
+    box-shadow: 0 0 1px $color-accent;
+  }
+}
+
+.switch__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid $font-color-dark;
+  border-radius: 34px;
+  -webkit-transition: $transition;
+  transition: $transition;
+
+  &:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 6px;
+    bottom: 6px;
+    background-color: $font-color-dark;
+    border-radius: 50%;
+    -webkit-transition: $transition;
+    transition: $transition;
+  }
+}

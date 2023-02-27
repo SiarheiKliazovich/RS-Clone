@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly 1`] = `
+<div>
+  <nav
+    class="sidebar sidebar--fixed sidebar--show"
+    style="background-color: rgb(255, 0, 0); color: rgb(255, 255, 255);"
+  >
+    <div
+      class="sidebar__wrapper"
+    >
+      <ul
+        class="sidebar__list"
+      >
+        <a
+          class="header__link"
+          href="/"
+        >
+          <li
+            class="sidebar__item"
+          >
+            <svg
+              class="sidebar__icon"
+              fill="none"
+              stroke="#ffffff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"
+              />
+              <polygon
+                points="12 15 17 21 7 21 12 15"
+              />
+            </svg>
+            <span
+              class="sidebar__name"
+            >
+              menu.dashboard
+            </span>
+          </li>
+        </a>
+        <li
+          class="sidebar__item"
+        >
+          <svg
+            class="sidebar__icon"
+            fill="none"
+            stroke="#ffffff"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="18"
+              rx="2"
+              ry="2"
+              width="18"
+              x="3"
+              y="4"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="2"
+              y2="6"
+            />
+            <line
+              x1="8"
+              x2="8"
+              y1="2"
+              y2="6"
+            />
+            <line
+              x1="3"
+              x2="21"
+              y1="10"
+              y2="10"
+            />
+          </svg>
+          <span
+            class="sidebar__name"
+          >
+            menu.calendar
+          </span>
+        </li>
+        <a
+          class="header__link"
+          href="/orders"
+        >
+          <li
+            class="sidebar__item"
+          >
+            <svg
+              class="sidebar__icon"
+              fill="none"
+              stroke="#ffffff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="9"
+                cy="21"
+                r="1"
+              />
+              <circle
+                cx="20"
+                cy="21"
+                r="1"
+              />
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              />
+            </svg>
+            <span
+              class="sidebar__name"
+            >
+              menu.orders
+            </span>
+          </li>
+        </a>
+        <a
+          class="header__link"
+          href="/users"
+        >
+          <li
+            class="sidebar__item"
+          >
+            <svg
+              class="sidebar__icon"
+              fill="none"
+              stroke="#ffffff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+              />
+              <circle
+                cx="9"
+                cy="7"
+                r="4"
+              />
+              <path
+                d="M23 21v-2a4 4 0 0 0-3-3.87"
+              />
+              <path
+                d="M16 3.13a4 4 0 0 1 0 7.75"
+              />
+            </svg>
+            <span
+              class="sidebar__name"
+            >
+              menu.users
+            </span>
+          </li>
+        </a>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;

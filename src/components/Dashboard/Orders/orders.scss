@@ -1,0 +1,17 @@
+@import "../../../sass/variables";
+@import "../../../sass/mixins";
+
+.orders__wrapper > {
+    box-sizing: border-box;
+}
+
+.orders__wrapper {
+    margin: 0 auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-element-background-light;
+    padding: 15px;
+    border-radius: $border-radius-sm;
+    box-shadow: $box-shadow;
+    overflow-y: auto;
+}

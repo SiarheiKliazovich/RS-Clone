@@ -1,0 +1,114 @@
+@import "../../../sass/mixins";
+@import "../../../sass/variables";
+
+.banner-top {
+  background-image: url(../../../assets/images/jpg/BannerTie.jpg);
+  background-repeat: no-repeat;
+  height: 150px;
+  border-top: 3px solid $color-white1;
+  border-bottom: 3px solid $color-white1;
+}
+
+.order-process__banner {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: $color-white4;
+
+  .body--night-mode & {
+    background-color: $color-black1;
+  }
+}
+
+.title-block {
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.order-title {
+  font-weight: 200;
+  color: $color-grey9;
+  font-size: 52px;
+  padding-bottom: 15px;
+}
+
+.strong-title {
+  font-weight: 700;
+  color: $color-grey10;
+  font-size: $font-size-xxxxxlg;
+  padding-left: 15px;
+}
+
+.order-title-text {
+  font-family: $font-family-base;
+  font-size: $font-size-llg;
+}
+
+.order-instruction-block {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+
+  @include media-small-mobile {
+    flex-direction: column;
+  }
+}
+
+.image-order__wrapper {
+  text-align: center;
+}
+
+.text-order__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.instruction-block__text {
+  font-family: $font-family-base;
+  font-size: $font-size-llg;
+}
+
+.strong-text {
+  font-weight: 700;
+  color: $color-grey10;
+  font-size: $font-size-llg;
+}
+
+.image-order {
+  width: 192px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 212px;
+}
+
+.first {
+  background-image: url(https://cdn-bhllc.nitrocdn.com/tzrfwdCzhtOBUBnOQehAKoYljbaDwzgQ/assets/static/optimized/rev-c439613/wp-content/uploads/2019/11/0000169-Tie.png);
+}
+
+.second {
+  background-image: url(https://cdn-bhllc.nitrocdn.com/tzrfwdCzhtOBUBnOQehAKoYljbaDwzgQ/assets/static/optimized/rev-c439613/wp-content/uploads/2019/11/0000263-colour-pallette.png);
+}
+
+.third {
+  background-image: url(https://cdn-bhllc.nitrocdn.com/tzrfwdCzhtOBUBnOQehAKoYljbaDwzgQ/assets/static/optimized/rev-c439613/wp-content/uploads/2019/11/0000176-finish.png);
+}
+
+.button-link-wrapper {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.button-link {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s ease-in-out;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-family: $font-family-base;
+}
+
+.btn-video-link {
+  text-decoration: none;
+  color: $color-white1;
+}

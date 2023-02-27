@@ -1,0 +1,91 @@
+@import "../../sass/mixins";
+@import "../../sass/variables";
+
+.tieaddform__wrapper {
+  background: #f6f6f6;
+}
+
+.form-addtie__title {
+  text-align: center;
+  font-size: $font-size-xlg;
+  font-family: $font-family-base;
+  padding-top: 15px;
+}
+
+.tieaddform__banner-wrapper {
+  background: #f6f6f6;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tieaddform-block {
+  height: calc(100% - 30px);
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.form-addtie__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.form-addtie__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.form-img-blok {
+  background-image: url(../../assets/images/png/loade.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 205px;
+
+    @include media-small-mobile {
+      display: none;
+    }
+}
+
+.tieadd-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.tieadd-form__label {
+  padding-top: 15px;
+  font-size: $font-size-llg;
+  font-family: $font-family-base;
+}
+
+.field-file {
+  margin-top: 15px;
+  font-size: 140%;
+}
+
+.success-tooltip {
+  font-family: $font-family-base;
+  padding-bottom: 15px;
+}
+
+.add-tie-btn {
+  border: none;
+  border-radius: 3px;
+  color: $color-white1;
+  transition: 0.4s ease-in-out;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 200px;
+  text-align: left;
+  margin: 20px 0;
+
+  .fa {
+    margin-right: 10px;
+    color: $color-white1;
+  }
+}

@@ -1,0 +1,78 @@
+@import "../../../../sass/variables";
+@import "../../../../sass/mixins";
+
+.orders-list__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 800px;
+    width: 100%;
+}
+
+.orders-list__item {
+    width: 100%;
+    margin-top: 10px;
+
+    table {
+        width: 100%;
+        border: none;
+
+        .table-header {
+            font-size: $font-size-lg;
+            font-weight: $font-weight-bolder;
+        }
+
+        th {
+            height: 50px;
+            vertical-align: middle;
+
+            &:first-child {
+                width: 40px;
+            }
+        }
+
+        tr {
+            vertical-align: middle;
+            padding: 5px 0;
+        }
+    }
+}
+
+.select {
+    max-width: 165px;
+    font-size: $font-size-md;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.button__delete-order {
+    background-repeat: no-repeat;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: red;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+    color: $color-white1;
+    margin: 0 5px;
+    font-size: $font-size-lg;
+
+    .fa {
+        margin-right: 10px;
+        color: $color-white1;
+    }
+
+    &:hover {
+        background-color: $color-red3;
+    }
+}
+
+.button-apply {
+    cursor: pointer;
+    border-radius: $border-radius-sm;
+    border: none;
+    padding: 5px 15px;
+    color: $color-white1;
+    margin-right: 5px;
+}

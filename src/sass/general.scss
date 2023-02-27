@@ -1,0 +1,161 @@
+@import './normalize';
+@import './mixins';
+@import './variables';
+
+#root {
+  position: relative;
+}
+
+body {
+  font-family: $font-family-base;
+  color: $font-color-dark;
+  background-color: $color-page-background-light;
+  min-width: 390px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $font-color-header-dark;
+  font-weight: $font-weight-bolder;
+  line-height: $line-height-m;
+  text-transform: capitalize;
+  cursor: default;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1200px;
+
+  @include media-small-mobile {
+    padding: 0 15px;
+  }
+
+  &--full-width {
+    max-width: none;
+  }
+}
+
+.button {
+  padding: 10px 20px;
+  color: $font-color-white;
+  background-color: $color-accent;
+  font-size: $font-size-lg;
+  border: none;
+  border-radius: $border-radius-sm;
+  transition: $transition;
+  text-transform: capitalize;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-accent-hover;
+  }
+}
+
+.marker {
+  display: inline-block;
+  padding: 5px;
+  color: $font-color-white;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-md;
+  border-radius: $border-radius-sm;
+  text-transform: lowercase;
+  cursor: default;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
+  &--non-pain {
+    background-color: $color-special-5;
+  }
+
+  &--pain {
+    background-color: $color-special-4;
+  }
+
+  &--in-progress {
+    background-color: $color-special-3;
+  }
+
+  &--declined {
+    background-color: $color-special-9;
+  }
+
+  &--finished {
+    background-color: $color-special-2;
+  }
+
+  &--deadline {
+    background-color: $color-special-1;
+  }
+}
+
+.error-tooltip {
+  margin-bottom: 30px;
+  color: $color-special-1;
+  padding: 10px 15px;
+  font-size: $font-size-lg;
+  background-color: $color-special-6;
+  border-radius: 5px;
+
+  .fa {
+      font-size: $font-size-xlg;
+      color: $color-special-1;
+      margin-right: 10px;
+  }
+
+  a {
+    color: $color-special-1;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.success-tooltip {
+  margin-bottom: 30px;
+  color: $color-special-8;
+  padding: 10px 15px;
+  font-size: $font-size-lg;
+  background-color: $color-special-7;
+  border-radius: 5px;
+
+  .fa {
+      font-size: $font-size-xlg;
+      color: $color-special-8;
+      margin-right: 10px;
+  }
+
+  a {
+    color: $color-special-8;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.table-line:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.empty-message {
+  margin: 150px 0;
+  width: 100%;
+  font-size: $font-size-xxxlg;
+  text-align: center;
+  transition: $transition;
+
+  @include media-small-mobile {
+    margin: 100px 0;
+    font-size: $font-size-xxlg;
+  }
+}
